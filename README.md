@@ -1,80 +1,92 @@
 <div id="top"></div>
 
-<div align="center">
+<div align="center"> <h1>Arduino 3D Models</h1> <p><em>Coleção Detalhada de Modelos 3D do Arduino e Seus Componentes em CATIA V5</em></p>
 
-🔩 Modelagem 3D do Arduino no CATIA
-Um projeto de Design e Engenharia Reversa de alta fidelidade de um microcontrolador Arduino e seus componentes eletrônicos, modelado em CATIA V5.
+<img alt="last-commit" src="https://img.shields.io/github/last-commit/theofeitoza/Arduino?style=flat&logo=git&logoColor=white&color=0080ff" /> <img alt="repo-top-language" src="https://img.shields.io/github/languages/top/theofeitoza/Arduino?style=flat&color=0080ff" /> <img alt="repo-language-count" src="https://img.shields.io/github/languages/count/theofeitoza/Arduino?style=flat&color=0080ff" />
 
-<img alt="last-commit" src="https://img.shields.io/github/last-commit/theofeitoza/Arduino?style=flat&logo=git&logoColor=white&color=0080ff"> <img alt="CAD" src="https://img.shields.io/badge/Software-CATIA%20V5-blue.svg?style=flat&logo=dassaultsystemes&logoColor=white">
+<p><em>Desenvolvido com a ferramenta:</em></p> <img alt="CATIA" src="https://img.shields.io/badge/CATIA_V5-02519A.svg?style=flat&logo=dassault-systemes&logoColor=white" /> </div>
 
-</div>
-
-📜 Índice
-#visão-geral-do-projeto
-Estrutura e Detalhes
-Software Utilizado
-Aplicações e Uso
-Galeria de Componentes
 
 <hr>
 
-🚀 Visão Geral do Projeto
-Este repositório contém um modelo 3D completo e de alta fidelidade do microcontrolador Arduino Pro Mini, desenvolvido inteiramente no software CATIA. O projeto foi concebido a partir de uma abordagem modular, na qual cada componente eletrônico individual da placa foi desenhado separadamente com precisão dimensional.
+Índice
+Visão Geral
 
-O processo culminou na montagem final do conjunto (.CATProduct), integrando todos os subcomponentes (.CATPart) para criar uma réplica digital exata do produto físico. Este modelo detalhado é ideal para diversas aplicações de engenharia e design.
 
-<hr>
 
-✨ Estrutura e Detalhes
-O projeto foi dividido em partes individuais e montagens para garantir modularidade e precisão.
 
-.CATPart: Arquivos que representam os componentes eletrônicos individuais modelados em 3D.
 
-Microcontrolador (ATmega 2560)
 
-Capacitores (0603, 1206)
-
-Resistores (0603)
-
-LEDs (0603 Blue, 0603 Green)
-
-Oscilador de Cristal (Crystal Oscilator SMD)
-
-Diodos, Fusíveis, Conectores e outros.
-
-.CATProduct: Arquivos de montagem que unem os componentes individuais para formar subconjuntos ou o produto final.
-
-Montagem Final.CATProduct: A placa Arduino completa com todos os componentes posicionados.
-
-Montagem PIN XX.CATProduct: Montagens dos headers de pinos.
 
 <hr>
 
-🔧 Software Utilizado
-Software de Modelagem:
+Visão Geral
+Este repositório contém uma coleção completa de modelos 3D de uma placa Arduino e seus componentes eletrônicos individuais, todos criados com o software CATIA V5. O objetivo é fornecer modelos precisos para fins educacionais, integração em projetos mecânicos maiores e visualização de hardware.
 
-Para visualizar e editar os arquivos deste repositório, é necessário ter acesso ao CATIA ou a um software de CAD compatível que possa importar os formatos .CATPart e .CATProduct.
+Por que este projeto?
 
-<hr>
+Este projeto oferece recursos valiosos para estudantes, engenheiros e entusiastas que precisam de representações digitais de hardware eletrônico. As principais características incluem:
 
-🚀 Aplicações e Uso
-Este modelo 3D detalhado pode ser utilizado para:
+📐 Alta Precisão: Modelos detalhados que representam as dimensões e a aparência dos componentes reais.
 
-Design de Invólucros (Cases): Projetar e modelar cases customizados para impressão 3D com encaixe perfeito.
+🧩 Design Modular: Cada componente é um arquivo .CATPart separado, facilitando o uso individual ou em montagens (.CATProduct).
 
-Integração em Projetos Mecânicos: Incorporar a placa Arduino em montagens maiores de produtos, garantindo o correto dimensionamento e posicionamento.
+🔧 Compatibilidade: Ideal para ser integrado em projetos de engenharia mecânica que interagem com eletrônicos.
 
-Documentação Técnica: Criar renderizações e desenhos técnicos de alta qualidade para manuais e apresentações.
-
-Análises de Engenharia: Realizar simulações térmicas ou de vibração (em softwares de CAE compatíveis).
-
-Estudo e Educação: Servir como material de estudo para engenharia reversa e design de PCBs.
+🎓 Recurso Educacional: Perfeito para aprender sobre a construção física de placas de circuito e componentes eletrônicos.
 
 <hr>
 
-🖼️ Galeria de Componentes
-Abaixo estão alguns dos componentes individuais que foram modelados para este projeto.
+Estrutura do Projeto
+O repositório está organizado com arquivos de peças (.CATPart) para cada componente individual e arquivos de produto (.CATProduct) que reúnem as peças em montagens.
+
+Componentes Modelados
+A coleção inclui, mas não se limita a:
+
+Microcontrolador: ATmega 2560
+
+Capacitores: 0603, 1206
+
+Resistores: 0603
+
+LEDs: 0603 (Azul, Verde)
+
+Diodos e Fusíveis: Diode SMD, Fuse 1206
+
+Conectores: Micro USB, Pinos de conexão
+
+Circuitos Integrados: SOIC 16, SOT223
+
+Outros: Oscilador de Cristal, Botões (SWT 32)
+
+Montagens Finais: Montagem Final.CATProduct, ATmega 2560.CATProduct
 
 <hr>
 
-<div align="left"> <a href="#top">⬆ Voltar ao topo</a> </div>
+Começando
+Pré-requisitos
+Para visualizar e editar os arquivos nativos deste projeto, você precisará de:
+
+Software CAD: Dassault Systèmes CATIA V5 ou um software compatível que possa importar arquivos .CATPart e .CATProduct.
+
+Como Usar
+Clone o repositório:
+
+Navegue até o diretório do projeto:
+
+Abra os arquivos:
+
+Use o CATIA V5 para abrir os arquivos .CATPart (peças individuais) ou .CATProduct (montagens completas).
+
+Para quem não possui o software, a pasta do projeto contém imagens (.JPG, .png) para visualização rápida dos modelos.
+
+<hr>
+
+Galeria
+Abaixo estão algumas renderizações dos modelos contidos neste repositório.
+
+<hr>
+
+<div align="left"><a href="#top">⬆ Voltar ao topo</a></div>
+
+<hr>
