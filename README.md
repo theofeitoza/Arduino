@@ -37,7 +37,7 @@ Este projeto oferece recursos valiosos para estudantes, engenheiros e entusiasta
 ---
 
 ## 🏗️ Estrutura do Projeto
-O repositório está organizado com arquivos de peças (`.CATPart`) для cada componente individual e arquivos de produto (`.CATProduct`) que reúnem as peças em montagens.
+O repositório está organizado com arquivos de peças (`.CATPart`) para cada componente individual e arquivos de produto (`.CATProduct`) que reúnem as peças em montagens.
 
 #### Componentes Modelados
 A coleção inclui, mas não se limita a:
@@ -77,7 +77,36 @@ Para visualizar e editar os arquivos nativos deste projeto, você precisará de:
 ## 🖼️ Galeria
 Abaixo estão algumas renderizações dos modelos contidos neste repositório.
 
-*(Você pode adicionar suas imagens aqui)*
+### Montagem Final
+<p align="center">
+  <img src="arduino.png" alt="Renderização da Placa Arduino Completa" width="70%">
+</p>
+<p align="center">
+  <img src="arquivo_2.png" alt="Vista Alternativa da Montagem" width="70%">
+</p>
+
+### Componentes Individuais
+<p align="center">
+  <img src="atmega_2560.JPG" alt="ATmega 2560" width="30%">
+  <img src="capacitor_0603.JPG" alt="Capacitor 0603" width="30%">
+  <img src="capacitor_1206.JPG" alt="Capacitor 1206" width="30%">
+</p>
+<p align="center">
+  <img src="crystal_oscilator.JPG" alt="Crystal Oscillator" width="30%">
+  <img src="diode.JPG" alt="Diode SMD" width="30%">
+  <img src="fuse_1206.JPG" alt="Fuse 1206" width="30%">
+</p>
+<p align="center">
+  <img src="led0603_blue.JPG" alt="LED 0603 Blue" width="30%">
+  <img src="resistor_0603.JPG" alt="Resistor 0603" width="30%">
+  <img src="soic16.JPG" alt="SOIC 16" width="30%">
+</p>
+<p align="center">
+  <img src="sot_223.JPG" alt="SOT 223" width="30%">
+  <img src="swt32.JPG" alt="SWT 32 Button" width="30%">
+  <img src="fuse_1206_green.JPG" alt="Fuse 1206 Green" width="30%">
+</p>
+
 
 ---
 
